@@ -22,10 +22,10 @@ This project aims to bulid 12-factors cloud native app where we will build a sma
 ### Messages 
 This project aims to bulid 12-factors cloud native app where we will build a small messaging application in order to do the basic CURD operations, we will use the following technologies in order to build and deploy the application, in this project we will use also the Kanban board to manage our tasks and show the progress of our project.
 
-| HTTP Verb       |       URI           |    Action              |
-| --------------- | --------------------|------------------------|
-| Get             |  /messages          |    List All Messages   |
-| Post            |  /messages          |    Insert new Message  |
-| Put             |  /messages/id       |    Update Message      |
-| Delete          |  /messages/id       |    Delete Message      |
+| HTTP Verb       |       URI               |    Action              |
+| --------------- | ------------------------|------------------------|
+| Get             |  /api/messages          |    List All Messages   |
+| Post            |  /api/messages          |    Insert new Message  |
+| Put             |  /api/messages/id       |    Update Message      |
+| Delete          |  /api/messages/id       |    Delete Message      |
 
