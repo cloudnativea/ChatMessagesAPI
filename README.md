@@ -1,5 +1,5 @@
-# Chat API <br>
-## This project is for a master course[Software managment] in software engineering at Birzeit university 
+# Chat API
+## This prject for a master course[Software managment] in software engineering at Birzeit university.
 
 ### Project name : Cloud Native App | Simple Messaging Application 
 
