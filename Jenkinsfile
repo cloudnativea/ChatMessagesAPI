@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                bat 'mvn repackage' 
+                bat 'mvn prepare-package' 
             }
             post {
                 success {
