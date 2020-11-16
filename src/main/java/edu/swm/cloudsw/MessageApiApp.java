@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableAutoConfiguration
 @SpringBootApplication
 @EnableSwagger2
-public class MessageApiApp extends SpringBootServletInitializer{
+public class MessageApiApp extends SpringApplication{
 	
 
 	
