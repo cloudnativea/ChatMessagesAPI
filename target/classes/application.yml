@@ -4,6 +4,8 @@ spring:
       uri: ${SPRING_DATA_MONGODB_URI}
       database: ${SPRING_DATA_MONGODB_DATABASE}
 
+
 server:
   port : 8082
-  
+
+   
