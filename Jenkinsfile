@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                bat 'mvn clean compile assembly:single' 
+                bat 'mvn clean package spring-boot:repackage' 
             }
             post {
                 success {
