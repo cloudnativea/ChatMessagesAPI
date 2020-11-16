@@ -2,6 +2,7 @@ package edu.swm.cloudsw;
 
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 
-
+@EnableAutoConfiguration
 @SpringBootApplication
 @EnableSwagger2
 public class MessageApiApp extends SpringBootServletInitializer{
