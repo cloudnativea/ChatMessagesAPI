@@ -62,7 +62,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>fully.qualified.MainClass</mainClass>
+							<mainClass>edu.swm.cloudsw.MessageApiApp</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
