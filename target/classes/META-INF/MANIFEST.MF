@@ -3,5 +3,4 @@ Implementation-Title: SWM cloude native apps
 Implementation-Version: 0.0.1-SNAPSHOT
 Build-Jdk-Spec: 1.8
 Created-By: Maven Integration for Eclipse
-Main-Class: edu.swm.cloudsw.MessageApiApp
 
