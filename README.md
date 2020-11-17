@@ -31,6 +31,7 @@ The Basic Operations that is done By the system
 | Put             |  /api/messages/id       |    Update Message      |
 | Delete          |  /api/messages/id       |    Delete Message      |
 
+![APIs](https://user-images.githubusercontent.com/54929537/99323052-00d4cf80-287a-11eb-8479-2673f9f0732b.PNG)
 
 ### Context Diagram For The Simple System  
 
