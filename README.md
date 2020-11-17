@@ -1,5 +1,5 @@
-# Chat API
-## This prject for a master course[Software managment] in software engineering at Birzeit university.
+# Chat API <br>
+## This project is for a master course[Software Managment] in Software Engineering at Birzeit University  
 
 ### Project name : Cloud Native App | Simple Messaging Application 
 
@@ -24,12 +24,13 @@ The next table demonistrate the technologies that will be used to build and depl
 ### Messages 
 The Basic Operations that is done By the system
 
-| HTTP Verb       |       URI               |    Action              |
-| --------------- | ------------------------|------------------------|
-| Get             |  /api/messages          |    List All Messages   |
-| Post            |  /api/messages          |    Insert new Message  |
-| Put             |  /api/messages/id       |    Update Message      |
-| Delete          |  /api/messages/id       |    Delete Message      |
+| HTTP Verb       |       URI               |    Action            |
+| --------------- | ------------------------|-----------------------------------------------|
+| Get             |  /api/messages          |    List All Messages                          |
+| Get             |  /api/messages/id       |    Display the message with the specified ID  |
+| Post            |  /api/messages          |    Insert new Message                         |
+| Put             |  /api/messages/id       |    Update Message with the specified ID       |
+| Delete          |  /api/messages/id       |    Delete Message with the specified ID       |
 
 ![APIs](https://user-images.githubusercontent.com/54929537/99323052-00d4cf80-287a-11eb-8479-2673f9f0732b.PNG)
 
