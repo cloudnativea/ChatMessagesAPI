@@ -10,9 +10,15 @@
 - Waseem Jaber  
 - Katy Sadi   
 
-### Project Descrioption  
+### Project Descrioption  :
 Messaging application, developed using 12-factor App methodology, the basic **CURD** operations will be Done.  
 The next table demonistrate the technologies that will be used to build and deploy the application, also Kanban board will be used to manage our tasks and to show the progress of the project.  
+
+### Context Diagram For The Simple System  :
+
+![contexDiagram](https://user-images.githubusercontent.com/54929537/99133952-af7fd280-2624-11eb-8905-8bb60cee857a.jpeg)
+
+
 | Technology      | Usage               |
 | --------------- | --------------------|
 |JAVA spring boot | programming language|
@@ -21,7 +27,7 @@ The next table demonistrate the technologies that will be used to build and depl
 |Docker           | contaier paltform   |
 |kubernetes       | Container managments|
 
-### Messages 
+### Messages :
 The Basic Operations that is done By the system
 
 | HTTP Verb       |       URI               |    Action            |
@@ -33,10 +39,24 @@ The Basic Operations that is done By the system
 | Delete          |  /api/messages/id       |    Delete Message with the specified ID       |
 
 
-### API Documnetation using Swagger  
+
+### API Documnetation using Swagger  :
 
 ![APIs](https://user-images.githubusercontent.com/54929537/99323052-00d4cf80-287a-11eb-8479-2673f9f0732b.PNG)
 
-### Context Diagram For The Simple System  
 
-![contexDiagram](https://user-images.githubusercontent.com/54929537/99133952-af7fd280-2624-11eb-8905-8bb60cee857a.jpeg)
+### Continuous Integration / Continuous Delivery [ CI/CD ]
+
+In order to automate the continuous delviery and integration for our project we used the following tools:
+
+Jenkins
+We used jenkins tool to automae the build our spring boot applicaiton and produce the JAR file which will be used later on to be dockerized, So we built the following pipline line in order to automate the proccess of building the spring boot app.
+
+
+Dcoker 
+We useed the Docker tool in order contarized our applicaiton so it can run on container management paltforms.
+
+
+
+
+
