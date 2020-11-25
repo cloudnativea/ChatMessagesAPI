@@ -16,7 +16,7 @@ The next table demonistrate the technologies that will be used to build and depl
 
 ### Context Diagram For The Simple System  :
 
-![contexDiagram](https://user-images.githubusercontent.com/54929537/99133952-af7fd280-2624-11eb-8905-8bb60cee857a.jpeg)
+![Context Diagram](https://user-images.githubusercontent.com/54929537/100283978-154e5180-2f77-11eb-868f-ac4579f643a5.jpg)
 
 
 | Technology      | Usage               |
