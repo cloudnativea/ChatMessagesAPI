@@ -49,12 +49,12 @@ The Basic Operations that is done By the system
 
 In order to automate the continuous delviery and integration for our project we used the following tools:
 
-Jenkins
+- **Jenkins**   
 We used jenkins tool to automae the build our spring boot applicaiton and produce the JAR file which will be used later on to be dockerized, So we built the following pipline line in order to automate the proccess of building the spring boot app.
 
 
-Dcoker 
-We useed the Docker tool in order contarized our applicaiton so it can run on container management paltforms.
+- **Dcoker**  
+The Docker tool was used in order to contarize our applicaiton, so, it can run on container management paltforms.  
 
 
 
