@@ -19,7 +19,7 @@ pipeline {
                 bat 'mvn clean package spring-boot:repackage' 
             }
 		    steps('Build Docker Image') {
-				def dockerImage
+				
 			    dockerImage = docker.build("habuzahra:chatapi")
 			}
             post {
