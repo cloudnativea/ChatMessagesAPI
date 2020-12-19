@@ -8,7 +8,7 @@ node {
 	    def dockerImage
 	    // ip address of the docker private repository(nexus)
 	 
-	    def dockerImageTag = "habuzahra${chatapi}"
+	    def dockerImageTag = "habuzahra:chatapi"
 	    
 	    stage('Clone Repo') { // for display purposes
 	      // Get some code from a GitHub repository
