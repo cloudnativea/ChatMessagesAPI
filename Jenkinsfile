@@ -1,6 +1,5 @@
 pipeline {
-    agent {
-	any
+    agent any
     tools { 
         maven 'Maven 3.6.3' 
         jdk 'jdk8' 
@@ -19,6 +18,9 @@ pipeline {
             steps {
                 bat 'mvn clean package spring-boot:repackage' 
             }
+		    steps('Build Docker Image') {
+				docker.build("habuzahra:chatapi")
+			}
             post {
                 success {
                    echo "Done"
