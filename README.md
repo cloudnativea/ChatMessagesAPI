@@ -3,7 +3,7 @@
 
 ### Project name : Cloud Native App | Simple Messaging Application 
 
-### Course Teacher : Dr. Majed Ayyad 
+### Course Teacher : Dr. Majed Ayyad.
 
 ### Students names: 
 - Husam Abu Zahra   
