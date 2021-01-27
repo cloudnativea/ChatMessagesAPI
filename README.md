@@ -70,8 +70,16 @@ After creating the docker image of the chatapi, we used Kubernetes as container 
 - **F-01- Codebase**  
 As we can see in this repositry, Source code, Configurations, Docker File , Jenkin PipeLines are Defined in it.  
 - **F-02- Dependencies**   
-- **F-03- Configurations**   
+All application internal and external dependencies were defined inside the pom.xml file.  
+When we build the application the dependencies will be downloaded and bundled.   
+- **F-03- Configurations**     
+Environment Variables were used to store the configurations in, so that the configurations can be changed without the need to change on the application.  
+![Picture2](https://user-images.githubusercontent.com/54929537/106011536-3b04ed80-60c3-11eb-80c3-7c7e74107e0a.png)
+
 - **F-05- Build, releas, run**  
+Git, Maven, Jenkins were used to automate the process of building and releasing code.  
+So, it can be ready to run on any docker server.  
+the previous figure shows these steps from Git to Jenkens.  
 - **F-06- Processes**   
 - **F-07- Port Binding**  
 - **F-08- Concurrency**  
