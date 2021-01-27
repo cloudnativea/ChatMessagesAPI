@@ -81,6 +81,9 @@ Git, Maven, Jenkins were used to automate the process of building and releasing 
 So, it can be ready to run on any docker server.  
 the previous figure shows these steps from Git to Jenkens.  
 - **F-06- Processes**   
+The aapplication was containerized so that it can be run inside a container.
+![dock](https://user-images.githubusercontent.com/54929537/106014140-ddbe6b80-60c5-11eb-8c94-c8b02d8387a5.png)
+
 - **F-07- Port Binding**  
 - **F-08- Concurrency**  
 - **F-09- Desposability**   
