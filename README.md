@@ -66,4 +66,18 @@ After creating the docker image of the chatapi, we used Kubernetes as container 
 
 
 
-### Applyed 12 Factor App in the Project:  
+### Applyed 12 Factor App in the Project:   
+- **F-01- Codebase**  
+As we can see in this repositry, Source code, Configurations, Docker File , Jenkin PipeLines are Defined in it.  
+- **F-02- Dependencies**   
+- **F-03- Configurations**   
+- **F-05- Build, releas, run**  
+- **F-06- Processes**   
+- **F-07- Port Binding**  
+- **F-08- Concurrency**  
+- **F-09- Desposability**   
+- **F-10- Dev/Prod Parity**   
+
+
+
+
