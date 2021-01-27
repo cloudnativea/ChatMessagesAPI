@@ -25,8 +25,8 @@ The next table demonistrate the technologies that will be used to build and depl
 |JAVA spring boot | programming language|
 |Mongo DB         | Data base           |
 |Jenkins          | CI/CD               |
-|Docker           | contaier paltform   |
-|kubernetes       | Container managments|
+|Docker           | Container paltform   |
+|kubernetes       | Container orchestration engine|
 
 ### Messages :
 The Basic Operations that is done By the system
@@ -58,6 +58,12 @@ We used jenkins tool to automae the build our spring boot applicaiton and produc
 The Docker tool was used in order to contarize our applicaiton, so, it can run on container management paltforms.  
 
 
+### Kubernetes  
+After creating the docker image of the chatapi, we used Kubernetes as container orchestration engine for automating deployment, scaling, and management of our application.  
+  
+   
+   ![chatapisys](https://user-images.githubusercontent.com/54929537/106003014-74852b00-60ba-11eb-8e80-0376147dbaab.png)
 
 
 
+### Applyed 12 Factor App in the Project:  
