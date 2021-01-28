@@ -84,7 +84,11 @@ the previous figure shows these steps from Git to Jenkens.
 The aapplication was containerized so that it can be run inside a container.
 ![dock](https://user-images.githubusercontent.com/54929537/106014140-ddbe6b80-60c5-11eb-8c94-c8b02d8387a5.png)
 
-- **F-07- Port Binding**  
+- **F-07- Port Binding**   
+In order to expose our application to external we used port binding factor.  
+In our local machine we can bind our service to any port we want, though it's bonded to different port in the deployment.  
+![port binding](https://user-images.githubusercontent.com/54929537/106195410-c7dda300-61b8-11eb-9009-de05405c1cf5.png)
+
 - **F-08- Concurrency**  
 - **F-09- Desposability**   
 - **F-10- Dev/Prod Parity**   
