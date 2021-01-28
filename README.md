@@ -99,6 +99,12 @@ If one of the containers stopped, the service will remain up as there is one ser
 ![Disposability](https://user-images.githubusercontent.com/54929537/106198918-52c09c80-61bd-11eb-973e-be9e958d396f.png)
 
 - **F-10- Dev/Prod Parity**   
+As our application is still very small the Dev/Prod Parity are still the same.  
+But in order to keep this factor under control the following has been done:  
+--> Env. Variables.  
+--> All related files are kept in the same repo.  
+
+
 
 
 
