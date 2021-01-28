@@ -90,6 +90,10 @@ In our local machine we can bind our service to any port we want, though it's bo
 ![port binding](https://user-images.githubusercontent.com/54929537/106195410-c7dda300-61b8-11eb-9009-de05405c1cf5.png)
 
 - **F-08- Concurrency**  
+After containarize our application, this allowed us to run it on container management platform where we used Kubernetes to.  
+In this case, we can scale our application easily by increasing the number of the replicas in our deployment, or it can be automatically scaled based on the resource consumption.  
+![concurrency](https://user-images.githubusercontent.com/54929537/106197429-63701300-61bb-11eb-8abd-aabd9002d576.png)
+
 - **F-09- Desposability**   
 - **F-10- Dev/Prod Parity**   
 
