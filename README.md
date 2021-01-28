@@ -95,6 +95,9 @@ In this case, we can scale our application easily by increasing the number of th
 ![concurrency](https://user-images.githubusercontent.com/54929537/106197429-63701300-61bb-11eb-8abd-aabd9002d576.png)
 
 - **F-09- Desposability**   
+If one of the containers stopped, the service will remain up as there is one service pointing to multiple instances of the same app and this is due to the fact that we are running the application over K8s which running apps can automatically scale up and down.   
+![Disposability](https://user-images.githubusercontent.com/54929537/106198918-52c09c80-61bd-11eb-973e-be9e958d396f.png)
+
 - **F-10- Dev/Prod Parity**   
 
 
