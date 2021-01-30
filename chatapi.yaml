@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chatapi
+  template:
+    metadata:
+      labels:
+        app: chatapi
+    spec:
+      imagePullSecrets:
+      - name: docker-hub-key
+      containers:
+        - name: app
+          image: habuzahra/chatapi:pipline
+          ports:
+            - containerPort: 8082
+          env:
+            - name: SPRING_DATA_MONGODB_URI
+              value: mongodb://mongo:27017/swm-messages?readPreference=primary&gssapiServiceName=mongodb&ssl=false
+              
+            - name: SPRING_DATA_MONGODB_DATABASE
+              value: swm-messages
+          imagePullPolicy: Always
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatapi
+spec:
+  selector:
+    app: chatapi
+  ports:
+    - port: 8082
+      targetPort: 8082
+  type: LoadBalancer
+  
+---
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: chatapi-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: chatapi.io
+    http:
+      paths:
+      - path: /api/message
+        pathType: Prefix
+        backend:
+          service:
+            name: chatapi
+            port:
+              number: 80802
+  
