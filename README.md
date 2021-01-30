@@ -68,10 +68,16 @@ After creating the docker image of the chatapi, we used Kubernetes as container 
 
 ### Applyed 12 Factor App in the Project:   
 - **F-01- Codebase**  
-As we can see in this repositry, Source code, Configurations, Docker File , Jenkin PipeLines are Defined in it.  
+As we can see in this repositry, Source code, Configurations, Docker File , Jenkin PipeLines are Defined in it.   
+![codebase](https://user-images.githubusercontent.com/54929537/106350491-6d3e6700-62de-11eb-88f8-fb87df17b9b0.png)
+   
+   
 - **F-02- Dependencies**   
 All application internal and external dependencies were defined inside the pom.xml file.  
-When we build the application the dependencies will be downloaded and bundled.   
+When we build the application the dependencies will be downloaded and bundled.    
+![dep](https://user-images.githubusercontent.com/54929537/106350515-8c3cf900-62de-11eb-8362-ea82da70f456.png)
+   
+   
 - **F-03- Configurations**     
 Environment Variables were used to store the configurations in, so that the configurations can be changed without the need to change on the application.  
 ![Picture2](https://user-images.githubusercontent.com/54929537/106011536-3b04ed80-60c3-11eb-80c3-7c7e74107e0a.png)
