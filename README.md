@@ -86,6 +86,7 @@ Environment Variables were used to store the configurations in, so that the conf
 Git, Maven, Jenkins were used to automate the process of building and releasing code.  
 So, it can be ready to run on any docker server.  
 the previous figure shows these steps from Git to Jenkens.  
+
 ![jen](https://user-images.githubusercontent.com/54929537/106350679-80056b80-62df-11eb-9704-df6ec46a1a55.png)
 
 ![jen2](https://user-images.githubusercontent.com/54929537/106350694-927fa500-62df-11eb-9565-897ee9268e3a.png)
