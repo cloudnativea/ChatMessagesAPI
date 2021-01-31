@@ -119,6 +119,16 @@ But in order to keep this factor under control the following has been done:
 --> All related files are kept in the same repo.  
 
 
+- **F-11- Logs**   
+For Logging purpose and due to lack of time we decide to implement in the future the following roadmap to display the logs
+1- The application will push the logs to Kafka instance.
+2- Elastisc Search will consume the logs from kafak topic.
+3- Logs will be displayed in Kibana dashboard.
+
+Below figure display our roadmap:
+https://github.com/cloudnativea/ChatMessagesAPI/blob/master/images/Logs.png
+
+
 
 
 
