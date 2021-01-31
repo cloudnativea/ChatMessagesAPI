@@ -126,7 +126,7 @@ For Logging purpose and due to lack of time we decide to implement in the future
 3- Logs will be displayed in Kibana dashboard.
 
 Below figure display our roadmap:
-https://github.com/cloudnativea/ChatMessagesAPI/blob/master/images/Logs.png
+![Logs Future Roadmap](https://github.com/cloudnativea/ChatMessagesAPI/blob/master/images/Logs.png)
 
 
 
