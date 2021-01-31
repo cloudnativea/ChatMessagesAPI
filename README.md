@@ -84,6 +84,13 @@ In addition to that the artifacts of our applications has been deployed in *.jar
 Environment Variables were used to store the configurations in, so that the configurations can be changed without the need to change on the application.  
 ![Picture2](https://user-images.githubusercontent.com/54929537/106011536-3b04ed80-60c3-11eb-80c3-7c7e74107e0a.png)
 
+
+- **F-04- Backing Services* 
+
+*** Not Implemented
+
+A backing service is any service the app consumes over the network as part of its normal operation. Examples include datastores (such as MySQL or CouchDB), messaging/queueing systems (such as RabbitMQ or Beanstalkd), SMTP services for outbound email (such as Postfix), and caching systems (such as Memcached). 
+
 - **F-05- Build, releas, run**  
 Git, Maven, Jenkins were used to automate the process of building and releasing code.  
 So, it can be ready to run on any docker server.  
@@ -92,8 +99,8 @@ the previous figure shows these steps from Git to Jenkens.
 ![jen](https://user-images.githubusercontent.com/54929537/106350679-80056b80-62df-11eb-9704-df6ec46a1a55.png)
 
 ![jen2](https://user-images.githubusercontent.com/54929537/106350694-927fa500-62df-11eb-9565-897ee9268e3a.png)
-  
-  
+
+   
 - **F-06- Processes**   
 The aapplication was containerized so that it can be run inside a container.
 ![dock](https://user-images.githubusercontent.com/54929537/106014140-ddbe6b80-60c5-11eb-8c94-c8b02d8387a5.png)
@@ -129,6 +136,9 @@ Below figure display our roadmap:
 ![Logs Future Roadmap](https://github.com/cloudnativea/ChatMessagesAPI/blob/master/images/Logs.png)
 
 
+- **F-12- Admin Proccess**   
+*** Not Implemented
+Run admin/management tasks as one-off processes
 
 
 
