@@ -74,8 +74,10 @@ As we can see in this repositry, Source code, Configurations, Docker File , Jenk
    
 - **F-02- Dependencies**   
 All application internal and external dependencies were defined inside the pom.xml file.  
-When we build the application the dependencies will be downloaded and bundled.    
+When we build the application the dependencies will be downloaded and bundled included the application server (Tomcat , Swageers , etc..) 
 ![dep](https://user-images.githubusercontent.com/54929537/106350515-8c3cf900-62de-11eb-8362-ea82da70f456.png)
+
+In addition to that the artifacts of our applications has been deployed in *.jar format , not *.war as the jar files can be run directly on the OS like windows, linux and unix while the *.war is require servelt contianer to run over it.
    
    
 - **F-03- Configurations**     
